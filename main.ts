@@ -1,6 +1,6 @@
 // Copies entry.png (shipped beside this program) to
 // MAKEFUN_OUTPUT_DIR/entry.png and verifies the copy is byte-identical.
-import { copyFileSync, mkdirSync, readFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -9,6 +9,9 @@ const source = join(here, "entry.png");
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const target = join(outDir, "entry.png");
 
+if (!existsSync(source)) {
+  throw new Error(`entry.png not found beside main.ts (${source})`);
+}
 mkdirSync(outDir, { recursive: true });
 copyFileSync(source, target);
 
@@ -24,4 +27,9 @@ if (!pngMagic.every((v, i) => b[i] === v)) {
 if (b.length > 1048576) {
   throw new Error("entry.png exceeds 1 MiB");
 }
-console.log(`wrote ${target} (${b.length} bytes, byte-identical to source)`);
+const width = b.readUInt32BE(16);
+const height = b.readUInt32BE(20);
+if (width > 1024 || height > 1024) {
+  throw new Error(`entry.png is ${width}x${height}, over the 1024x1024 cap`);
+}
+console.log(`wrote ${target} (${width}x${height}, ${b.length} bytes, byte-identical to source)`);
