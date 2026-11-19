@@ -1,0 +1,3 @@
+# 18 November 2026 — The World in One Day
+
+A newspaper-style image summing up the world's news of Wednesday 18 November 2026: the US strike on an IRGC missile site on Iran's Qeshm Island and Iran's retaliation against the Ali Al Salem air base in Kuwait; Xi greeting Trump as APEC opened in Shenzhen ahead of the first-ever Trump–Xi–Putin trilateral; Mary Peltola winning Alaska's Senate race for a 56–44 Democratic majority; Cyclone Akvan bearing down on India's Andhra Pradesh coast; the DR Congo Ebola outbreak passing 11,000 cases; and Voyager 1 crossing one light-day from Earth. The image is drawn as a front page — masthead, dateline, lead story, five cards, a numbers box and a sources footer — and the program copies it to the output directory unchanged.
