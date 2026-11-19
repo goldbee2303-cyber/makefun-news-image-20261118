@@ -1,5 +1,11 @@
 # 18 November 2026 — The World in One Day
 
+[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/goldbee2303-cyber/makefun-news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![reward](https://make.fun/badge/news-image-20261118/goldbee2303-cyber/makefun-news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+
+Entry for the make.fun bounty [Sum up 18 November's world news in one image](https://make.fun/bounty/news-image-20261118).
+
 A dense newspaper-style image summing up the world's news of Wednesday 18 November 2026 — 15 stories on one page: a navy masthead with the date, a "THE DAY IN UTC" timeline, three illustrated lead stories, eight cards, a numbered briefs strip, a "WHERE IT HAPPENED" map and a "DATE CHECK" footer.
 
 Leads: Xi greets Trump on the tarmac in Shenzhen as APEC opens; Kuwait and Bahrain intercept Iranian drones after the US strike on Qeshm Island; Voyager 1 crosses one light-day from Earth. Cards: Russia fires 141 drones at Ukraine (126 downed); the EU proposes a €45bn loan for Kyiv in 2027; Fed minutes point to more hikes; Cyclone Akvan bears down on India's east coast; Amnesty reports 37 killed by RSF drones in El Obeid; Hakeem Jeffries wins the Democrats' Speaker nomination 251–11; GTA VI goes on sale after a 13-year wait; Ebola passes 11,000 cases in DR Congo. Briefs: Peltola wins Alaska's Senate race (56–44); Ukraine hits the Kerch Bridge for a second day; Ukraine strikes the Ilysky and Afipsky refineries; the US–China tariff truce runs to 10 January 2027.
